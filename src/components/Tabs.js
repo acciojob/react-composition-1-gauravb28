@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Tabs = ({ tabProp }) => {
-  const [content, setContent] = useState('');
+  const [content, setContent] = useState(tapProp[0].content);
 
   return (
     <div>
